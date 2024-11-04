@@ -1,0 +1,35 @@
+import math
+n = int(input(&quot;Введите n: &quot;))
+b2 = int(input(&quot;Введите b2: &quot;))
+b5 = int(input(&quot;Введите b5: &quot;))
+q = (b5 / b2) ** (1/3)
+b1 = b2 / q
+S = (b1 * (1 - q)) / (1 - q)
+
+print(&quot;Сумма геометрической прогрессии: &quot;, S)
+14) import math
+a = int(input(&quot;Введите a: &quot;))
+b = int(input(&quot;Введите b: &quot;))
+c = math.sqrt((a ** 2) + (b ** 2))
+alpha = math.atan(a / b)
+beta = math.atan (b / a)
+print(&quot;Гипотенуза: &quot;, c)
+print(&quot;Угол альфа: &quot;, math.atan(a / b))
+print(&quot;Угол бетта: &quot;, math.atan(b / a))
+19) import math
+R1 = float(input(&quot;Введите R1: &quot;))
+R2 = float(input(&quot;Введите R2: &quot;))
+R3 = float(input(&quot;Введите R3: &quot;))
+R = R1 + R2 + R3
+print(&quot;Сопротивление соединения: &quot;, R)
+24) import math
+r1 = float(input(&quot;Радиус первой окружности: &quot;))
+r2 = float(input(&quot;Радиус второй окружности: &quot;))
+D = (2 * r1) + (2 * r2)
+S = 1/4 * 3.14 * (D ** 2)
+print(&quot;Площадь круга: &quot;, S)
+29) import math
+C = float(input(&quot;Введите C: &quot;))
+R = C / (2 * 3.14)
+S = 2 * 3.14 * (R ** 2)
+print(&quot;Площадь круга: &quot;, S)
